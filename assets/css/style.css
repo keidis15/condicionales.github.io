@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/assets/imgs/bgImagen.jpg);
+    background-image: url(../imgs/bgImagen.jpg);
     background-size: cover;
 }
 .img-nav{
