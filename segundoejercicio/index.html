@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Segundo Requerimiento</title>
+  </head>
+  <body>
+    <button class="btn-inicio">
+      <a href="../index.html">Inicio</a>
+    </button>
+    <div class="container">
+      <h2>Puedes llevar 10 Stikers en total</h2>
+
+      <div class="container-img">
+        <div class="img-img">
+          <img
+            src="./imgs/imagen2condicionales-removebg-preview.png"
+            alt="stikers1"
+          />
+          <label for="primerStikers"></label>
+          <input type="number" id="primerStikers" name="primerStikers" min="0" max="10" />
+        </div>
+        <div class="img-img">
+          <img
+            src="./imgs/imagenconsicinalespanda-removebg-preview.png"
+            alt="stikers2"
+          />
+
+          <label for="segundoStikers"></label>
+          <input type="number" id="segundoStikers" name="segundoStikers" min="0" max="10"/>
+        </div>
+        <div class="img-img">
+          <img src="./imgs/imagen3consicionales-preview.png" alt="stikers3" />
+
+          <label for="tercerStikers"></label>
+          <input type="number" id="tercerStikers" name="tercerStikers" min="0" max="10"/>
+        </div>
+      </div>
+
+      <p id="textoCantidadStikers"></p>
+
+      <button onclick="verificarTotal()" class="btn" id="btnVerificar">Verificar</button>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
