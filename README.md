@@ -5,14 +5,6 @@ Este proyecto es una práctica básica para entender y aplicar **estructuras con
 ## 🧠 Objetivo
 
 Aprender a usar las estructuras condicionales (`if`, `else if`, `else`) y operadores, para tomar decisiones y resolver situaciones reales en una interfaz web usando javaScript.
-.
-
-### Ejemplos de funcionalidades:
-
-- Determinar si una persona es mayor de edad.
-- Identificar si un número es positivo, negativo o cero.
-- Evaluar una calificación numérica y mostrar un mensaje (aprobado, reprobado, excelente, etc.).
-- Mostrar un mensaje según el día de la semana (usando `switch`).
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -24,3 +16,6 @@ Aprender a usar las estructuras condicionales (`if`, `else if`, `else`) y operad
 ## ✍️ Autor
 
 - **Keidis Suarez**
+
+## Puedes ver en vivo el proyecto en GitHub page
+ https://keidis15.github.io/condicionales.github.io/
